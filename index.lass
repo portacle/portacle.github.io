@@ -1,7 +1,29 @@
+(:font-face
+ :font-family "'concourse'"
+ :src (url "concourse-bold.woff")
+ :font-weight bold
+ :font-style normal)
+(:font-face
+ :font-family "'concourse'"
+ :src (url "concourse-italic.woff")
+ :font-weight normal
+ :font-style italic)
+(:font-face
+ :font-family "'concourse'"
+ :src (url "concourse-bold-italic.woff")
+ :font-weight bold
+ :font-style italic)
+(:font-face
+ :font-family "'concourse'"
+ :src (url "concourse.woff")
+ :font-weight normal
+ :font-style normal)
+
+
 (:let ((mainbg "#FFBB00")
        (mainfg "#FFDD33"))
   (body
-   :font-family sans-serif
+   :font-family concourse sans-serif
    :overflow-wrap break-word
    :font-size 24pt
    :padding 0
