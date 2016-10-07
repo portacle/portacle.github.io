@@ -30,6 +30,7 @@
    :margin 0
    :background "#333333"
    :color "#EEEEEE"
+   :linear-gradient "0deg" "#151515" 0% "#333333" 100%
    ("header:before"
     :content "''"
     :background-image (url "header.png")
@@ -84,9 +85,10 @@
     :cursor default
     :user-select none)
    (main
+    :margin 0 auto 0 auto
+    :max-width 800px
     :padding 50px 50px 50px 300px
     :text-align justify
-    :linear-gradient "0deg" "#151515" 0% "#333333" 100%
     (a
      :color #(mainbg)
      :text-decoration none)
@@ -100,8 +102,13 @@
      :background "#151515"
      :font-size 0.8em
      :padding 5px)
+    (pre
+     :background "#151515"
+     :overflow-y hidden
+     :overflow-x auto)
+    (img :max-width 100%)
     (p
-     :margin 0 10px 20px 10px)
+     :margin 10px 10px 20px 10px)
     (img.logo
      :width 150px
      :height 150px
@@ -114,9 +121,9 @@
      :background white
      :border-radius 200px)
     (img.full
-     :margin 0 auto 0 auto
+     :margin-left -200px
      :display block
-     :max-width 100%)
+     :max-width "calc(100% + 200px)")
     (>section
      :position relative)
     (section 
