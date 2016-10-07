@@ -30,6 +30,15 @@
    :background "#333333"
    :color "#EEEEEE"
    :linear-gradient "0deg" "#151515" 0% "#333333" 100%
+   (h1 :font-size 2.0em)
+   (h2 :font-size 1.7em)
+   (h3 :font-size 1.3em :font-weight normal)
+   (h4 :font-size 1.2em :font-weight normal)
+   (.noselect
+    :cursor default
+    :user-select none)
+   (a.noselect
+    :cursor pointer)
    ("header:before"
     :content "''"
     :background-image (url "header.png")
@@ -76,13 +85,6 @@
       :margin 5px)
      (".download:hover"
       :background #(mainfg))))
-   (h1 :font-size 2.0em)
-   (h2 :font-size 1.7em)
-   (h3 :font-size 1.3em :font-weight normal)
-   (h4 :font-size 1.2em :font-weight normal)
-   (.noselect
-    :cursor default
-    :user-select none)
    (main
     :margin 0 auto 0 auto
     :max-width 800px
@@ -116,9 +118,6 @@
      :margin-left -50px
      :left -150px
      :padding 5px)
-    (img.logo.emacs
-     :background white
-     :border-radius 200px)
     (img.full
      :margin-left -200px
      :display block
