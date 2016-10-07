@@ -8,26 +8,120 @@
   </head>
   <body>
     <header>
-      <img src="portacle.svg" id="logo"/>
       <h1>Portacle</h1>
+      <span class="version">0.0.7</span>
       <div class="downloads">
-        <span class="version">0.1.0</span>
-        <a class="download win" href="https://github.com/Shinmera/portacle/release/0.1.0/win-portacle.exe">For Windows 7-10 64x</a>
-        <a class="download mac" href="https://github.com/Shinmera/portacle/release/0.1.0/mac-portacle.tar.xz">For OS X 10.10 64x</a>
-        <a class="download lin" href="https://github.com/Shinmera/portacle/release/0.1.0/lin-portacle.tar.xz">For Linux 64x</a>
-        <a class="archive" href="https://github.com/Shinmera/portacle/release">Older downloads</a>
+        <a class="download win" href="https://github.com/Shinmera/portacle/releases/download/0.0.7/win-portacle.exe">For Windows 7+</a>
+        <a class="download mac" href="https://github.com/Shinmera/portacle/releases/download/0.0.7/mac-portacle.tar.xz">For OS X 10.10+</a>
+        <a class="download lin" href="https://github.com/Shinmera/portacle/releases/download/0.0.7/lin-portacle.tar.xz">For Linux 3.16+</a>
       </div>
     </header>
     <main>
       <section id="what">
-        Portacle is a thing.
+        <h2>What This Is</h2>
+        <img class="logo" src="portacle.svg"/>
+        <p>
+          Portacle is a complete IDE that you can take with you on a USB stick. It is multi-platform and can be run on Windows, OS X, and Linux. Since it does not require any complicated installation process, it is <a class="xref" href="#get">setup and running</a> in no time.</p>
+        <p>
+          It lends itself very well both to absolute beginners of Lisp that just need a good starting point, as well as advanced users that want to minimise the time spent getting everything ready.
+        </p>
+        <p>
+          The following software packages are included in Portacle:
+        </p>
+        <article id="what-contents">
+          <section id="what-contents-emacs">
+            <img class="logo emacs" src="emacs.svg" />
+            <h3>Emacs</h3>
+            <p>
+              Emacs is a very flexible and extensible editor that has been around for a long time. Due to its history and huge community, it is capable of covering pretty much any area of programming and more.
+            </p>
+          </section>
+          <section id="what-contents-sbcl">
+            <img class="logo sbcl" src="sbcl.svg" />
+            <h3>SBCL</h3>
+            <p>
+              SBCL is one of the fastest and most capable Lisp implementations available today.
+            </p>
+          </section>
+          <section id="what-contents-quicklisp">
+            <img class="logo quicklisp" src="quicklisp.svg" />
+            <h3>Quicklisp</h3>
+            <p>
+              Quicklisp is the standard Lisp package manager that allows you to retrieve and manage over a thousand libraries with a few keystrokes.
+            </p>
+          </section>
+          <section id="what-contents-git">
+            <img class="logo git" src="git.svg" />
+            <h3>Git</h3>
+            <p>
+              Git is perhaps the most widely used version control system today. It is one of the most central pieces of code management and exchange.
+            </p>
+          </section>
+        </article>
       </section>
-      <section id="how">
-        It does things.
+      <section id="get">
+        <h2>How to Get It</h2>
+        <p>
+          Portacle is rather straight-forward to setup and use. All you need to do is extract an archive. After that, you can freely move its installation folder around and even take it with you on a memory stick.
+        </p>
+        <p>
+          If you are new to Emacs, Lisp, or both, you should also read the section <a class="xref" href="#use">after this one</a> once you successfully completed the installation.
+        </p>
+        <article id="get-win">
+          <h3>Windows</h3>
+          <p>
+            Download the <a class="download win" href="https://github.com/Shinmera/portacle/releases/download/0.0.7/win-portacle.exe">latest release</a> and run it. It will ask you where to install it to, defaulting to your home folder. Note that you do not need to append <code>portacle</code> to the end of the path. After extraction, you can launch it by double-clicking the <code>portacle.exe</code>.
+          </p>
+          <p>
+            Note that the <code>portacle.exe</code> is tied to the <code>portacle</code> directory and needs everything within it to function properly. You can however create a shortcut to the exe to reach it more easily from your desktop.
+          </p>
+        </article>
+        <article id="get-mac">
+          <h3>Mac OS X</h3>
+          <p>
+            Download the <a class="download mac" href="https://github.com/Shinmera/portacle/releases/download/0.0.7/mac-portacle.tar.xz">latest release</a> and extract it. You can then launch it by double-clicking the <code>Portacle.app</code>.
+          </p>
+          <p>
+            Note that you cannot copy the <code>Portacle.app</code> outside of the <code>portacle</code> directory. You must take the whole directory with you. You can however drag the app into your dock.
+          </p>
+        </article>
+        <article id="get-lin">
+          <h3>Linux</h3>
+          <p>
+            Download the <a class="download lin" href="https://github.com/Shinmera/portacle/releases/download/0.0.7/lin-portacle.tar.xz">latest release</a> and extract it. You can then launch it by double-clicking the <code>portacle.desktop</code>. The file may also be presented to you as just <code>Portacle</code>.
+          </p>
+          <p>
+            Note that you cannot move or copy the <code>portacle.desktop</code> file elsewhere. It has to reside in the <code>portacle</code> directory for it to work.
+          </p>
+        </article>
+      </section>
+      <section id="use">
+        <h2>Using It</h2>
+        <p>
+          Upon launch it might fizzle around for a few seconds and then present you with a window that looks something like this:
+        </p>
+        <img class="full" src="portacle-start.png" />
+        <p>
+          The window should be divided up into two regions, each of which display something called a buffer. One of the buffers, the one displaying <code style="color:#DD5555;display:inline-block">CL-USER></code>, is the Lisp prompt. The other is the <code>scratch</code> buffer and should also contain some hints on how to reach a reference guide.
+        </p>
+        <p>
+          As a quick test, click inside the Lisp prompt buffer, and type in the following snippet:
+        </p>
+        <pre><code class="noselect">(progn (format T "Hey, what's your name?~%")
+       (format T "Hello, ~a!" (read-line)))</code></pre>
+        <p>
+          You will notice that it automatically inserts clsoing parens and the end of the quote for you. To run it, move the cursor to the end and hit your <code>Return</code> key.
+        </p>
+        <img class="full" src="portacle-greet.png" />
+        <p>
+          Congratulations! You just ran your first program in Portacle.
+        </p>
+        <p>
+          Make sure to read the <code>*portacle-help*</code> document. It should explain all the basic terminology and commands on how to use the editor.
+        </p>
       </section>
     </main>
     <footer>
     </footer>
-    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
