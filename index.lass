@@ -127,3 +127,20 @@
     (section 
      :clear both
      :min-height 210px))))
+
+(:media "(max-width: 800px)"
+        (body
+         :font-size 18pt
+         (header
+          (.downloads
+           :display none))
+         (main
+          :margin 0
+          :padding 5px
+          (img.logo
+           :position static
+           :margin 0 10px 0 0
+           :width 20%
+           :height auto)
+          (section
+           :min-height 0))))
