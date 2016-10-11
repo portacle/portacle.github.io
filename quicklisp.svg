@@ -11,13 +11,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="64"
    height="64"
-   id="svg4152"
+   id="svg3360"
    version="1.1"
    inkscape:version="0.91 r13725"
    viewBox="0 0 64 64"
    sodipodi:docname="quicklisp.svg">
   <defs
-     id="defs4154" />
+     id="defs3362" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,26 +26,26 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.5"
-     inkscape:cx="5"
+     inkscape:cx="4.8181818"
      inkscape:cy="32"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="text3368"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
      inkscape:window-width="1916"
-     inkscape:window-height="1161"
-     inkscape:window-x="1920"
+     inkscape:window-height="1041"
+     inkscape:window-x="0"
      inkscape:window-y="37"
      inkscape:window-maximized="0" />
   <metadata
-     id="metadata4157">
+     id="metadata3365">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,17 +53,13 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:52.88311768px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d8d8d8;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="5.7964153"
-       y="45.749611"
-       id="text4700"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4702"
-         x="5.7964153"
-         y="45.749611"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';fill:#d8d8d8;fill-opacity:1;">Q</tspan></text>
+    <g
+       style="font-style:normal;font-weight:normal;font-size:54.9610405px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3368">
+      <path
+         style="fill:#c5c5c5;fill-opacity:1"
+         d="M 30.818359 3.4199219 C 17.957475 3.4199219 7.9550781 12.983961 7.9550781 25.625 C 7.9550781 37.716429 17.077125 47.498085 29.443359 47.882812 L 22.298828 51.951172 C 19.001165 53.874809 18.671875 54.258748 18.671875 55.248047 C 18.671875 56.072462 19.276326 56.623047 20.265625 56.623047 C 22.738872 56.623047 23.287766 53.050781 27.080078 53.050781 C 32.631143 53.050781 38.2935 60.580078 46.427734 60.580078 C 51.868877 60.580078 56.044922 57.171414 56.044922 52.554688 C 56.044922 51.785232 55.936094 50.905627 55.826172 50.246094 L 54.451172 50.246094 C 53.351951 53.818562 51.813834 55.138672 48.40625 55.138672 C 42.415496 55.138672 37.798176 51.015625 31.257812 51.015625 C 30.653242 51.015625 29.773672 51.071991 29.333984 51.126953 L 29.333984 50.90625 C 30.872893 49.752068 32.796793 48.87297 34.775391 48.103516 C 38.95243 46.564606 42.910737 44.915474 45.933594 42.277344 C 50.605282 38.210227 53.681641 32.383802 53.681641 25.513672 C 53.681641 13.037516 43.679242 3.4199219 30.818359 3.4199219 z M 30.818359 6.4433594 C 40.491502 6.4433594 46.537109 13.863337 46.537109 25.625 C 46.537109 37.606507 40.436541 45.191406 30.818359 45.191406 C 21.145216 45.191406 15.099609 37.606507 15.099609 25.625 C 15.099609 13.863337 21.145216 6.4433594 30.818359 6.4433594 z "
+         id="rect4287" />
+    </g>
   </g>
 </svg>
