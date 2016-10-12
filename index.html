@@ -111,14 +111,18 @@
         <pre><code class="noselect" title="Come on, just type it in real quick.">(progn (format T "Hey, what's your name?~%")
        (format T "Hello, ~a!" (read-line)))</code></pre>
         <p>
-          You will notice that it automatically inserts clsoing parens and the end of the quote for you. To run it, move the cursor to the end and hit your <code>Return</code> key.
+          You will notice that it automatically inserts clsoing parens and the end of the quote for you. To run it, move the cursor to the end by either clicking or using the arrow keys, and hit your <kbd title="Return">⏎</kbd> key.
         </p>
-        <img src="portacle-greet.png" />
+        <img alt="portacle repl greeting" src="portacle-greet.png" />
         <p>
           Congratulations! You just ran your first program in Portacle.
         </p>
         <p>
-          Make sure to read the <code>*portacle-help*</code> document. It should explain all the basic terminology and commands on how to use the editor.
+          You should probably also configure Portacle's default settings. To do this, press <kbd>Alt</kbd>+<kbd>X</kbd>, then type <code>portacle-configure</code> followed by <kbd title="Return">⏎</kbd>. You should then see a prompt at the bottom of the window, in an area called the "minibuffer".
+        </p>
+        <img alt="portacle minibuffer" src="portacle-minibuffer.png" />
+        <p>
+          Once you've answered all the questions, Portacle should be set and ready to go. Make sure to read the <code>*portacle-help*</code> document. It should explain all the basic terminology and commands on how to use the editor.
         </p>
       </section>
     </main>

@@ -39,6 +39,21 @@
     :user-select none)
    (a.noselect
     :cursor pointer)
+   (kbd
+    :display inline-block
+    :white-space nowrap
+    :background "#DDDDDD"
+    :color "#333333"
+    :border 0.08em solid "#BBBBBB"
+    :border-bottom 0.18em solid "#BBBBBB"
+    :border-radius 0.15em
+    :text-align center
+    :margin 0.1em
+    :vertical-align text-top
+    :padding 0.2em
+    :font-size 0.6em
+    :font-family Arial sans-serif
+    :box-shadow inset 0px 0px 0px 0.1em "#EEEEEE")
    ("header:before"
     :content "''"
     :background-image (url "header.png")
