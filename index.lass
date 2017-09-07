@@ -161,5 +161,8 @@
            :margin 0 10px 0 0
            :width 20%
            :height auto)
+          (img.full
+           :margin-left 0
+           :max-width 100%)
           (section
            :min-height 0))))
