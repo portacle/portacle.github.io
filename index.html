@@ -99,7 +99,7 @@
           <img class="logo mac" alt="mac os x logo" src="mac.svg" />
           <h3>Mac OS X</h3>
           <p>
-            Download the <a class="download mac" href="https://github.com/portacle/portacle/releases/download/1.4/mac-portacle.dmg">latest release</a>, open the disk image, and move it to a dirctory such as `/Applications`. Due to "security" reasons on macOS, you'll then need to run <pre>sudo xattr -dr com.apple.quarantine /Applications/portacle</pre> in order to remove the quarantine attribute from all files in the `portacle` directory. This will allow you to open the application without security warnings.
+            Download the <a class="download mac" href="https://github.com/portacle/portacle/releases/download/1.4/mac-portacle.dmg">latest release</a>, open the disk image, and move the `portacle` folder to a dirctory such as `/Applications` for easy access. Due to "security" reasons on macOS, you'll then need to run <pre>sudo xattr -dr com.apple.quarantine /Applications/portacle</pre> (replace `/Applications` with whatever path you moved your `portacle` directory to) in order to remove the quarantine attribute from all files in the `portacle` directory. This will allow you to open the application without security warnings/confirmations.
           </p>
           <p>
             Note that you cannot copy the <code>Portacle.app</code> outside of the <code>portacle</code> directory. You must take the whole directory with you. You can however drag the app into your dock to create a shortcut.
